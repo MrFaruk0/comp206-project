@@ -1,0 +1,14 @@
+*.class
+*.jar
+*.log
+*.ctxt
+.DS_Store
+.classpath
+.project
+.settings/
+bin/
+.vscode/
+.idea/
+*.iml
+out/
+/project_exp
