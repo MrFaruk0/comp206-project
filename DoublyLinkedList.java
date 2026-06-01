@@ -114,4 +114,18 @@ public class DoublyLinkedList {
     public boolean isEmpty() {
         return head == null;
     }
+
+    // Gets all packages in the buffer as a list without removing them
+    // Time Complexity: O(n)
+    public java.util.List<Package> getAllPackages() {
+        java.util.List<Package> packages = new java.util.ArrayList<>();
+        Node current = head;
+        
+        while (current != null) {
+            packages.add(current.data);
+            current = current.next;
+        }
+        
+        return packages;
+    }
 }

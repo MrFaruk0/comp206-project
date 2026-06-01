@@ -55,4 +55,14 @@ public class SinglyLinkedList {
     public boolean isEmpty() {
         return head == null;
     }
+
+    // Saves all package records to a file using PrintWriter
+    // Time Complexity: O(n)
+    public void saveToFile(java.io.PrintWriter writer) {
+        Node current = head;
+        while (current != null) {
+            writer.println(current.data.getPackageID() + " " + current.data.getDestination());
+            current = current.next;
+        }
+    }
 }

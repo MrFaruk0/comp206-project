@@ -4,9 +4,13 @@ public class Main {
         System.out.println("      KYS Logistics Distribution System");
         System.out.println("===========================================");
         System.out.println();
-        
-        /*LogisticsSystem system = new LogisticsSystem();
+        System.out.println("Company: KYS Logistics");
+        System.out.println("Mission: Efficient urban logistics & distribution");
+        System.out.println("Hub Location: Meydan, Kayseri");
+        System.out.println();
+
+        // Initialize and start the logistics system
+        LogisticsSystem system = new LogisticsSystem();
         system.start();
-        */
     }
 }
